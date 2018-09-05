@@ -6,13 +6,13 @@ fn test_first_prime() {
 }
 
 #[test]
-#[ignore]
+// #[ignore]
 fn test_second_prime() {
     assert_eq!(np::nth(2), Some(3));
 }
 
 #[test]
-#[ignore]
+// #[ignore]
 fn test_sixth_prime() {
     assert_eq!(np::nth(6), Some(13));
 }
@@ -24,7 +24,7 @@ fn test_big_prime() {
 }
 
 #[test]
-#[ignore]
+// #[ignore]
 fn test_zeroth_prime() {
     assert_eq!(np::nth(0), None);
 }
